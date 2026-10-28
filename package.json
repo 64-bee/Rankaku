@@ -1,0 +1,15 @@
+{
+  "name": "rankaku",
+  "version": "1.0.0",
+  "description": "Monorepo with Angular web app and Spring Boot API",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "web:start": "npm --prefix apps/web start",
+    "web:build": "npm --prefix apps/web run build",
+    "web:test": "npm --prefix apps/web run test -- --watch=false --browsers=ChromeHeadless"
+  },
+  "license": "UNLICENSED"
+}
