@@ -8,3 +8,13 @@ target/
 .idea/
 .vscode/
 *.iml
+
+# SonarQube
+.scannerwork/
+
+# Secrets locaux
+.env
+*.env.local
+
+# Claude Code (réglages perso)
+.claude/settings.local.json

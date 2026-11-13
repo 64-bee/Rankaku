@@ -3,12 +3,12 @@
 Monorepo containing:
 
 - `apps/web`: Angular web application
-- `apps/api`: Spring Boot (Java 17) API
+- `apps/api`: Spring Boot (Java 21) API
 
 ## Prerequisites
 
 - Node.js 20+
-- Java 17+
+- Java 21+
 - Maven 3.9+
 
 ## Web app (Angular)

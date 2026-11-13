@@ -9,7 +9,7 @@
   "scripts": {
     "web:start": "npm --prefix apps/web start",
     "web:build": "npm --prefix apps/web run build",
-    "web:test": "npm --prefix apps/web run test -- --watch=false --browsers=ChromeHeadless"
+    "web:test": "npm --prefix apps/web run test -- --watch=false"
   },
   "license": "UNLICENSED"
 }
